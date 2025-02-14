@@ -31,13 +31,6 @@ tasks:
     url: https://gh-proxy.com/github.com/ND-Framework/txadmin-recipe/blob/main/logo.png
     path: ./logo.png
 
-  # Download default CFX resources
-  - action: download_github
-    src: https://gh-proxy.com/github.com/citizenfx/cfx-server-data
-    ref: master
-    subpath: resources
-    dest: ./resources/[default]
-
   # Download screenshot-basic
   - action: download_file
     url: https://gh-proxy.com/github.com/andyyy7666/screenshot-basic/releases/latest/download/screenshot-basic.zip
